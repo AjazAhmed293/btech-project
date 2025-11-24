@@ -1,0 +1,2 @@
+battery_type,mass_kg,Cp_J_per_kgK,surface_area_m2,note,source
+18650 Li-ion (NMC),0.045,900,0.021,"h and R are cycle-dependent, fitted from thermal model",Assumed from literature + Week 1 fits
