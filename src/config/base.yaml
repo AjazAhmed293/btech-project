@@ -1,0 +1,12 @@
+project_name: EV Battery Digital Twin
+seed: 42
+paths:
+  processed_data_glob: data/processed/B0005_cycle_*.csv
+  parameter_evolution: results/parameter_evolution_B0005.csv
+split:
+  val_ratio: 0.2
+training:
+  max_rows: 20000
+  max_files: 60
+  n_estimators: 120
+  max_depth: 12
